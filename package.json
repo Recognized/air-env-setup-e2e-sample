@@ -1,0 +1,13 @@
+{
+  "name": "air-env-setup-e2e-sample",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal secret-free app used as the fixture for the Air environment setup E2E release gate.",
+  "scripts": {
+    "start": "node app.js",
+    "healthcheck": "node scripts/healthcheck.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
